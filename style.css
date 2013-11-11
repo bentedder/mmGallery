@@ -1,0 +1,43 @@
+body {
+	background:#efefef;
+	font-family:"Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:840px;
+}
+#wrapper h1 {
+	font-weight:normal;
+	margin:5px 0;
+}
+#mediaItems {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.tile {
+	width:200px;
+	display:block;
+	float:left;
+	margin:10px 10px 0 0	;
+	padding:0px;
+	height:200px;
+}
+
+.pagination a {
+	display:inline-block;
+	padding:5px 8px;
+	background:#ddd;
+	color:#666;
+	text-decoration:none;
+}
+.pagination a:hover {
+	background:#ccc;
+}
+
+.pagination a.nope {
+	cursor:default;
+	color:#aaa;
+	background:#ddd;
+}
